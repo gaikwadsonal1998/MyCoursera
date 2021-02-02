@@ -3,7 +3,7 @@
   var x="hello";
   angular.module('myFirstApp',[])
 
-  .controller('MyFirstController', function($scope){
+  .controller('MyFirstController', function(){
 
   });
 

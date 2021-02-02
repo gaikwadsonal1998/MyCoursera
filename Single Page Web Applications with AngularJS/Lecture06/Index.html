@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"> </script>
+    <script src="app.js"> </script>
+    <style>
+      body{
+        font-size: 1.5em;
+      }
+    </style>
+
+    <title>Name Clculator</title>
+  </head>
+  <body ng-app="NameCalculator">
+    <h1>Name calculator</h1>
+    <div ng-controller="NameCalculatorController">
+      <div>
+        Enter Name :
+        <input type="text"
+        ng-model="name"
+        ng-keyup="displaynumeric();">
+      </div>
+      <div>
+        Total numeric value of person's name is :
+         {{me}} </div>
+    </div>
+  </body>
+</html>
