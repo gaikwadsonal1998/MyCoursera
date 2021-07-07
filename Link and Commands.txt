@@ -9,3 +9,4 @@ https://www.coursera.org/learn/single-page-web-apps-with-angularjs/discussions/a
 
 //Start Browser Sync
 D:\MyCoursera\Single Page Web Applications with AngularJS>browser-sync start --server --directory --files "**/*"
+
